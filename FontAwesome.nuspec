@@ -24,4 +24,9 @@ Folder Changes:
     -- CSS files now reside in ~/Content/fontawesome instead of ~/Content</releaseNotes>
         <tags>FortAwesome FontAwesome Font Awesome Iconic Twitter Bootstrap</tags>
     </metadata>
+    <files>
+    	<file src="src\fontawesome\css\*.*" target="Content\Content\fontawesome"></file>
+    	<file src="src\fontawesome\fonts\*.*" target="Content\Content\fonts"></file>
+    	<file src="src\tools\*.*" target="tools"></file>
+    </file>
 </package>

@@ -28,5 +28,5 @@ Folder Changes:
     	<file src="src\fontawesome\css\*.*" target="Content\Content\fontawesome"></file>
     	<file src="src\fontawesome\fonts\*.*" target="Content\Content\fonts"></file>
     	<file src="src\tools\*.*" target="tools"></file>
-    </file>
+    </files>
 </package>

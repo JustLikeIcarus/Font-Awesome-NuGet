@@ -3,7 +3,7 @@
     <metadata>
         <id>FontAwesome</id>
         <version>4.0.0</version>
-        <authors>JiveCode</authors>
+        <authors>Dave Gandy</authors>
         <owners>JiveCode</owners>
         <licenseUrl>http://fontawesome.io/license/</licenseUrl>
         <projectUrl>http://fontawesome.io/</projectUrl>
@@ -28,5 +28,5 @@ Folder Changes:
     	<file src="src\fontawesome\css\*.*" target="Content\Content\fontawesome"></file>
     	<file src="src\fontawesome\fonts\*.*" target="Content\Content\fonts"></file>
     	<file src="src\tools\*.*" target="tools"></file>
-    </file>
+    </files>
 </package>

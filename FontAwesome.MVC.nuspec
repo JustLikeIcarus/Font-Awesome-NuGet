@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>FontAwesome.MVC</id>
+        <version>2.0.0</version>
+        <authors>Dave Gandy</authors>
+        <owners>JiveCode</owners>
+        <licenseUrl>http://fontawesome.io/license/</licenseUrl>
+        <projectUrl>http://fontawesome.io/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Adds FontAwesome files along with a Bundle Config for minimization support. Package Issues? Post them to https://github.com/JustLikeIcarus/Font-Awesome-NuGet/issues</description>
+        <summary>Font Awesome for Bootstrap - http://fontawesome.io</summary>
+        <releaseNotes>
+        	Target: MVC Projects 
+        	Adds FontAwesome along with an included bundle config for @Styles.render('~/Content/fontawesome')
+        	Added dependency on bootstrap.
+        </releaseNotes>
+        <tags>FortAwesome FontAwesome Font Awesome Iconic Twitter Bootstrap</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Mvc" />
+            <dependency id="Microsoft.AspNet.Web.Optimization" />
+            <dependency id="WebActivatorEx" />
+            <dependency id="FontAwesome" version="4.0.3.1" />
+        </dependencies>
+    </metadata>
+    <files>
+				<file src="src\FontAwesomeBundleConfig.cs.pp" target="Content\App_Start\FontAwesomeBundleConfig.cs.pp" />
+    </files>
+</package>

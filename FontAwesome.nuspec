@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>FontAwesome</id>
-        <version>4.0.2</version>
+        <version>4.0.3.1</version>
         <authors>Dave Gandy</authors>
         <owners>JiveCode</owners>
         <licenseUrl>http://fontawesome.io/license/</licenseUrl>
@@ -11,15 +11,14 @@
         <description>Iconic font designed for use with Twitter Bootstrap. Package Issues? Post them to https://github.com/JustLikeIcarus/Font-Awesome-NuGet/issues
 </description>
         <summary>Font Awesome for Twitter Bootstrap - http://fontawesome.io</summary>
-        <releaseNotes>Font Awesome 4.0.2 
-http://fontawesome.io/whats-new/
-    	
+        <releaseNotes>Switching to new file structure to match bootstrap. This will also resolve previous issues some may have experienced with css minimization and relative paths.
     </releaseNotes>
         <tags>FortAwesome FontAwesome Font Awesome Iconic Twitter Bootstrap</tags>
     </metadata>
     <files>
-    	<file src="src\fontawesome\css\*.*" target="Content\Content\fontawesome"></file>
-    	<file src="src\fontawesome\fonts\*.*" target="Content\Content\fonts"></file>
-    	<file src="src\tools\*.*" target="tools"></file>
+    	<file src="src\fontawesome\css\*.*" target="Content\Content"></file>
+    	<file src="src\fontawesome\fonts\*.*" target="Content\fonts"></file>
+    	<file src="src\readme.txt" target="readme.txt"></file>
+    	<file src="src\tools\FontAwesomeInstall.ps1" target="tools\install.ps1"></file>
     </files>
 </package>
